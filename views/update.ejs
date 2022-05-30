@@ -1,0 +1,17 @@
+<%- include("partials/header2"); -%>
+<h1 class="a">You can Update your Data too...</h1>
+
+<br>
+<form class="" action="/update/<%=key %>" method="post">
+    <div class="form-group">
+        <label>Title</label>
+        <input type="text" class="form-control" name="postTitle" value="<%=title%>">
+         <label>Post</label>
+         <input type="text" class="form-control" name="postBody" rows="5" cols="30" value="<%= body %>">
+       
+    
+</div>
+<button type="submit" name="button" class="btn btn-success">Save</button>
+  </form>
+
+<%- include("partials/footer"); -%>

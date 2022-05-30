@@ -1,0 +1,149 @@
+body {
+    background-color: #FFFDD0;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    
+      }
+  .centered {
+      padding-top: 200px;
+      text-align: center;
+  }
+  
+  
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 0px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #195CDE;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+.navbar-brand
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: blue;
+}
+.navbar-default .navbar-brand
+{
+    color:white;
+    
+}
+/* .navbar-brand1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 30px;
+     */
+/* } */
+.nav navbar-nav navbar-right
+{
+    margin-top: 10px;
+   
+}
+.navbar-default .navbar-nav>li>a {
+   color: yellow;
+   
+}
+.btn btn-danger{
+padding-top: 0px;
+}
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: purple;
+    margin-left: 0px;
+}
+
+.footer h4 {
+	margin-top: 25px;
+	font-size: 15px;
+  color: #fff;
+}
+img
+{
+   
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    padding-right: 10px;
+
+}
+.con{
+    
+        transition: transform .7s ease-in-out;
+    
+}
+.con:hover {
+    transform: rotate(360deg);
+}
+.xy
+{
+    border-radius: 0%;
+    height: 300px;
+    width: 300px;
+    margin-left:400px ;
+    margin-right: 400px;
+    
+}
+.a{
+    font-family: cursive;
+    color: black;
+}
+.h
+{
+    border-radius:60%;
+    height: 80px;
+    width: 100px;
+}
+
+.h1
+{
+    border-radius:60%;
+    height: 80px;
+    width: 100px;
+    margin-left: 100px;
+    margin-right: 0px;
+   margin-top: 0%;
+}
+/* .cover_title
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-shadow: 3px 0 black;
+
+    color: beige;
+    text-align: center;
+    margin-top: 100px;
+} */
+.cover
+{
+    border-radius:200%;
+    height: 150px;
+    width: 150px;
+   
+
+}
+
+/* .btn btn-primary
+{
+    margin-left: 600px;
+} */
